@@ -32,7 +32,7 @@ div{
     margin-right: 15px ;
 }
 
-.footer {
+div.footer {
     background-color: black;
     color: white;
 }
