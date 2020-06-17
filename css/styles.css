@@ -38,7 +38,7 @@ div.footer {
     text-align: center;
 }
 
-h1,p,h2,div,a {
+div {
     line-height: 30px ;
     font-family: 'OpenSans-Light';
     background-color: white ;
