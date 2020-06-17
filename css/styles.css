@@ -32,6 +32,9 @@ div{
     margin-right: 15px ;
 }
 
+.footer {
+    background-color: white;
+}
 
 h1,p,h2,div,a {
     line-height: 30px ;
