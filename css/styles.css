@@ -26,7 +26,7 @@ p.projets:hover {
     cursor: pointer ; 
 }
 
-div{ 
+div.body{ 
     text-align: center ;
     margin-left: 15px ;
     margin-right: 15px ;
@@ -35,6 +35,7 @@ div{
 div.footer {
     background-color: black;
     color: white;
+    text-align: center;
 }
 
 h1,p,h2,div,a {
