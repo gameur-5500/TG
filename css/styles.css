@@ -45,10 +45,6 @@ div.body{
     background-color: white;
 }
 
-a.logo:active {
-    color: black ;
-}
-
 div.footer {
     background-color: black;
     color: white;
@@ -70,11 +66,11 @@ a {
     color: chartreuse ;
 }
 
-a:hover {
+a.normal:hover {
     color: red ;
 }
 
-a:active {
+a.normal:active {
     color: aqua ;
 }
 
