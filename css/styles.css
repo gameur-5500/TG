@@ -26,22 +26,26 @@ p.projets:hover {
     cursor: pointer ; 
 }
 
+img.footers {
+    width: 50px ;
+    height: 50px
+}
+
 div.body{ 
     text-align: center ;
     margin-left: auto ;
     margin-right: auto ;
+    line-height: 30px ;
+    font-family: 'OpenSans-Light';
+    background-color: white;
 }
 
 div.footer {
     background-color: black;
     color: white;
     text-align: center;
-}
-
-div {
-    line-height: 30px ;
+    line-height: 15px ;
     font-family: 'OpenSans-Light';
-    background-color: white ;
 }
 
 h1 {
