@@ -45,6 +45,10 @@ div.body{
     background-color: white;
 }
 
+a.logo:active {
+    color: black ;
+}
+
 div.footer {
     background-color: black;
     color: white;
