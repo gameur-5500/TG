@@ -26,6 +26,14 @@ p.projets:hover {
     cursor: pointer ; 
 }
 
+div.nav {
+    border-bottom: 1px solid black ;
+    text-align: center ;
+    line-height: 15px ;
+    cursor: pointer ;
+
+}
+
 div.body{ 
     text-align: center ;
     margin-left: auto ;
