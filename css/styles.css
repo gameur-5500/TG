@@ -29,7 +29,7 @@ p.projets:hover {
 div.nav {
     border-bottom: 1px solid black ;
     text-align: center ;
-    line-height: 15px ;
+    line-height: 0px ;
     cursor: pointer ;
     background-color: black ;
     box-shadow: 6px 6px 6px black ;
