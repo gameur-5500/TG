@@ -17,10 +17,6 @@ body {
     background-color: black ;
 }
 
-strong {
-    text-decoration: none ;
-}
-
 p.projets {
     text-transform: uppercase ;
     color: green;
