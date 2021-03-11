@@ -1,16 +1,42 @@
-@font-face 
+@font-face {
+    font-family: OpenSans-Light ; 
+    src: url('fonts/OpenSans-Light.ttf') 
+}
+@font-face {
+        font-family: OpenSans-Bold ; 
+        src: url('fonts/OpenSans-Bold.ttf')
+}  
 
-{  font-family: OpenSans-Light ; 
-    src: url('fonts/OpenSans-Light.ttf') }
+    #img1{
+        width: 350px;
+    }
+    #maison {
+        color: gray;
+        padding-right: 11px;
+    }
+    
+    #maison2 {
+        margin-left: 11px;
+        cursor: pointer;
+    }
+    #toutemaison {
+        padding-top: 3px;
+    }
 
-img.projets:hover {
+    img.projets:hover {
     border: 1px solid black ;
     box-shadow: 6px 6px 6px black;
     cursor: pointer ;
 }
-
+#img2{
+    width: 100%;
+    padding-top: 22px;
+}
 p.premier {
     text-transform: uppercase ;
+    color: white;
+    padding-bottom: 215px;
+    font-size: 15px;
 }
 
 body {
@@ -54,9 +80,11 @@ div.footer {
 }
 
 h1 {
-    margin-top: -40px ;
     font-weight: 900;
     font-style: normal;
+    margin-top: -400px;
+    color: white;
+    font-family: 'OpenSans-Bold';
 }
 
 h1,h2 {
@@ -80,19 +108,40 @@ a.normal:active {
 
 {
   
+    #img1{
+        width: 100%;
+    }
     img.projets:active {
         border: 1px solid black ;
         box-shadow: 6px 6px 6px black ;  
     }
+    #img2 {
+        width: 100%;
+    }
+    h1 {
+        margin-top: -165px;
+    }
+    p.premier {
+        padding-top: 52px;
+        color: black;
+        padding-bottom: 0px;
+    }
+} 
+@media screen and (max-width: 350px)
 
+{
+    p,a {
+       font-size: 15px;
+    }
+    h1 {
+        margin-top: -147px;
+        font-size: 23px;
+    }
+    p.premier {
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 19px;
+    }
+}    
 
-
-
-
-
-
-
-
-
-    
-}
